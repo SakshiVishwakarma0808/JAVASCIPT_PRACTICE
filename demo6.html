@@ -1,0 +1,36 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            let a=prompt("Hey whats is your Age")
+            a=Number.parseInt(a)//converting the string to a number
+            console.log(typeof a)
+            //if statement
+           /* if(a>0){
+            alert("This is a valid Example")
+            }
+            //if else statement
+            if(a>0){
+            alert("This is a valid Example")
+            }
+            else{
+                alert("this is not a valid example")
+            }*/
+            //if.. else if..else statement
+            if(a<0){
+            alert("This is invalid age")
+            }
+            else if(a<9){
+                alert("You are a kid and you cannot even think of driving")
+            }
+            else if(a<18 && a>=19){
+                alert("You are a kid and you can think of driving")
+            }
+            else{
+                alert("This is valid age now you can drive")
+            }
+            console.log("Done")
+            console.log("You can",(a>18 ? "Not Drive" : "Drive"))
+        </script>
+    </body>
+</html>
